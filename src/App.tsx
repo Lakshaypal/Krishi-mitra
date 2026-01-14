@@ -12,7 +12,7 @@ import AgentHUD from './components/ui/AgentHUD';
 export default function App() {
   return (
     <Router>
-      <div className="relative w-full min-h-screen overflow-hidden bg-cyber-black text-cyber-text font-ui selection:bg-cyber-green/30">
+      <div className="relative w-full min-h-screen overflow-x-hidden bg-cyber-black text-cyber-text font-ui selection:bg-cyber-green/30">
         <Scene />
         <div className="relative z-10 w-full h-full">
           <Layout>
